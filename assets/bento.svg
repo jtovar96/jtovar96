@@ -1,0 +1,82 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="570" viewBox="0 0 1200 570">
+<style>
+  text{font-family:system-ui,-apple-system,'Segoe UI',Helvetica,Arial,sans-serif;fill:#F4F4F7}
+  .n{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;font-size:14px;font-weight:700;letter-spacing:2px}
+  .h{font-size:28px;font-weight:800;letter-spacing:-.5px}
+  .b{font-size:16px;fill-opacity:.62}
+  .t{opacity:0;animation:up .8s cubic-bezier(.2,.8,.2,1) forwards}
+  @keyframes up{from{opacity:0;transform:translateY(16px)}to{opacity:1;transform:none}}
+  .comet{animation:c 7s linear infinite}
+  @keyframes c{to{stroke-dashoffset:-1000}}
+</style>
+<g class="t" style="animation-delay:0.1s">
+  <rect x="1" y="1" width="792" height="176" rx="20" fill="#1B1830" stroke="#FFFFFF" stroke-opacity=".1"/>
+  <rect x="1" y="1" width="792" height="176" rx="20" fill="none" stroke="#F1552B" stroke-width="2" pathLength="1000" stroke-dasharray="90 910" class="comet" style="animation-delay:-0.1s"/>
+  <clipPath id="k1"><rect x="1" y="1" width="792" height="176" rx="20"/></clipPath>
+  <circle clip-path="url(#k1)" cx="754" cy="40" r="70" fill="#F1552B" opacity=".12"/>
+  <text x="28" y="44" class="n" fill="#F1552B">01 / PUNTO DE VENTA</text>
+  <text x="28" y="92" class="h">POS que no se cae</text>
+  <text x="28" y="126" class="b">Cierre ciego, arqueos por turno, propinas, pagos individuales</text>
+  <text x="28" y="150" class="b">y facturación electrónica por sede.</text>
+</g>
+<g class="t" style="animation-delay:0.2s">
+  <rect x="813" y="1" width="386" height="176" rx="20" fill="#1B1830" stroke="#FFFFFF" stroke-opacity=".1"/>
+  <rect x="813" y="1" width="386" height="176" rx="20" fill="none" stroke="#9D86FF" stroke-width="2" pathLength="1000" stroke-dasharray="90 910" class="comet" style="animation-delay:-0.2s"/>
+  <clipPath id="k2"><rect x="813" y="1" width="386" height="176" rx="20"/></clipPath>
+  <circle clip-path="url(#k2)" cx="1160" cy="40" r="70" fill="#9D86FF" opacity=".12"/>
+  <text x="840" y="44" class="n" fill="#9D86FF">02 / FACTURACIÓN</text>
+  <text x="840" y="92" class="h">Electrónica, 4 países</text>
+  <text x="840" y="126" class="b">DIAN · SENIAT</text>
+  <text x="840" y="150" class="b">DMCE 2.0 · CFDI 4.0</text>
+</g>
+<g class="t" style="animation-delay:0.3s">
+  <rect x="1" y="197" width="386" height="176" rx="20" fill="#1B1830" stroke="#FFFFFF" stroke-opacity=".1"/>
+  <rect x="1" y="197" width="386" height="176" rx="20" fill="none" stroke="#4ECB8E" stroke-width="2" pathLength="1000" stroke-dasharray="90 910" class="comet" style="animation-delay:-0.3s"/>
+  <clipPath id="k3"><rect x="1" y="197" width="386" height="176" rx="20"/></clipPath>
+  <circle clip-path="url(#k3)" cx="348" cy="236" r="70" fill="#4ECB8E" opacity=".12"/>
+  <text x="28" y="240" class="n" fill="#4ECB8E">03 / MANUFACTURA</text>
+  <text x="28" y="288" class="h">MRP y calidad</text>
+  <text x="28" y="322" class="b">Lotes, pesajes, formatos</text>
+  <text x="28" y="346" class="b">de calidad y mantenimiento.</text>
+</g>
+<g class="t" style="animation-delay:0.4s">
+  <rect x="407" y="197" width="386" height="176" rx="20" fill="#1B1830" stroke="#FFFFFF" stroke-opacity=".1"/>
+  <rect x="407" y="197" width="386" height="176" rx="20" fill="none" stroke="#F1552B" stroke-width="2" pathLength="1000" stroke-dasharray="90 910" class="comet" style="animation-delay:-0.4s"/>
+  <clipPath id="k4"><rect x="407" y="197" width="386" height="176" rx="20"/></clipPath>
+  <circle clip-path="url(#k4)" cx="754" cy="236" r="70" fill="#F1552B" opacity=".12"/>
+  <text x="434" y="240" class="n" fill="#F1552B">04 / LOGÍSTICA</text>
+  <text x="434" y="288" class="h">Inventario y WMS</text>
+  <text x="434" y="322" class="b">Operadores 3PL, recepciones</text>
+  <text x="434" y="346" class="b">por departamento y conteos.</text>
+</g>
+<g class="t" style="animation-delay:0.5s">
+  <rect x="813" y="197" width="386" height="176" rx="20" fill="#1B1830" stroke="#FFFFFF" stroke-opacity=".1"/>
+  <rect x="813" y="197" width="386" height="176" rx="20" fill="none" stroke="#9D86FF" stroke-width="2" pathLength="1000" stroke-dasharray="90 910" class="comet" style="animation-delay:-0.5s"/>
+  <clipPath id="k5"><rect x="813" y="197" width="386" height="176" rx="20"/></clipPath>
+  <circle clip-path="url(#k5)" cx="1160" cy="236" r="70" fill="#9D86FF" opacity=".12"/>
+  <text x="840" y="240" class="n" fill="#9D86FF">05 / INTEGRACIONES</text>
+  <text x="840" y="288" class="h">Todo conectado</text>
+  <text x="840" y="322" class="b">Shopify · VTEX · Melonn</text>
+  <text x="840" y="346" class="b">Wompi · Meta · APIs propias</text>
+</g>
+<g class="t" style="animation-delay:0.6s">
+  <rect x="1" y="393" width="792" height="176" rx="20" fill="#1B1830" stroke="#FFFFFF" stroke-opacity=".1"/>
+  <rect x="1" y="393" width="792" height="176" rx="20" fill="none" stroke="#4ECB8E" stroke-width="2" pathLength="1000" stroke-dasharray="90 910" class="comet" style="animation-delay:-0.6s"/>
+  <clipPath id="k6"><rect x="1" y="393" width="792" height="176" rx="20"/></clipPath>
+  <circle clip-path="url(#k6)" cx="754" cy="432" r="70" fill="#4ECB8E" opacity=".12"/>
+  <text x="28" y="436" class="n" fill="#4ECB8E">06 / INTELIGENCIA ARTIFICIAL</text>
+  <text x="28" y="484" class="h">VIKI, la IA que vende</text>
+  <text x="28" y="518" class="b">Atiende clientes en Messenger e Instagram, cotiza y consulta</text>
+  <text x="28" y="542" class="b">inventario en tiempo real desde el ERP.</text>
+</g>
+<g class="t" style="animation-delay:0.7s">
+  <rect x="813" y="393" width="386" height="176" rx="20" fill="#1B1830" stroke="#FFFFFF" stroke-opacity=".1"/>
+  <rect x="813" y="393" width="386" height="176" rx="20" fill="none" stroke="#F1552B" stroke-width="2" pathLength="1000" stroke-dasharray="90 910" class="comet" style="animation-delay:-0.7s"/>
+  <clipPath id="k7"><rect x="813" y="393" width="386" height="176" rx="20"/></clipPath>
+  <circle clip-path="url(#k7)" cx="1160" cy="432" r="70" fill="#F1552B" opacity=".12"/>
+  <text x="840" y="436" class="n" fill="#F1552B">07 / MIGRACIONES</text>
+  <text x="840" y="484" class="h">De v13 a v20</text>
+  <text x="840" y="518" class="b">Desde versiones viejas,</text>
+  <text x="840" y="542" class="b">Salesforce o Excel.</text>
+</g>
+</svg>
