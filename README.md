@@ -11,9 +11,9 @@
 
 ### 🚀 Qué hago
 
-- Implemento y personalizo **Odoo** (v13 a v19, Community y Enterprise) para empresas de Colombia y Venezuela.
+- Implemento y personalizo **Odoo** (v13 a v19, Community y Enterprise) para empresas de 🇨🇴 Colombia, 🇻🇪 Venezuela, 🇵🇦 Panamá y 🇲🇽 México.
 - Desarrollo módulos a medida: **Punto de Venta**, inventario y WMS, manufactura, contabilidad, CRM y comercio electrónico.
-- **Facturación electrónica DIAN** (FE, notas, documento soporte, RADIAN) y localización colombiana `l10n_co`; en Venezuela, SENIAT.
+- **Facturación electrónica DIAN** (FE, notas, documento soporte, RADIAN) y localización colombiana `l10n_co`; en Venezuela, SENIAT; en Panamá, DMCE 2.0 (Zona Libre de Colón); en México, CFDI 4.0.
 - Integraciones con **Shopify, VTEX, Melonn, Wompi, Meta (Messenger/Instagram)** y APIs de terceros.
 - Asistentes con **IA** conectados al ERP (VIKI) y automatización de procesos.
 - Migraciones entre versiones de Odoo y desde otros sistemas (Salesforce, Excel, ERPs locales).
