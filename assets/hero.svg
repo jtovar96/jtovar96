@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="400" viewBox="0 0 1200 400">
+<defs>
+  <linearGradient id="sig" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#6C4BF5"/><stop offset="1" stop-color="#F1552B"/></linearGradient>
+  <radialGradient id="o1"><stop offset="0" stop-color="#6C4BF5" stop-opacity=".75"/><stop offset="1" stop-color="#6C4BF5" stop-opacity="0"/></radialGradient>
+  <radialGradient id="o2"><stop offset="0" stop-color="#F1552B" stop-opacity=".6"/><stop offset="1" stop-color="#F1552B" stop-opacity="0"/></radialGradient>
+  <radialGradient id="core"><stop offset="0" stop-color="#F1552B"/><stop offset=".6" stop-color="#6C4BF5"/><stop offset="1" stop-color="#6C4BF5" stop-opacity="0"/></radialGradient>
+  <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse"><path d="M40 0H0V40" fill="none" stroke="#FFFFFF" stroke-opacity=".05"/></pattern>
+  <clipPath id="r"><rect width="1200" height="400" rx="28"/></clipPath>
+</defs>
+<style>
+  .o1{animation:a 14s ease-in-out infinite}
+  .o2{animation:b 11s ease-in-out infinite}
+  @keyframes a{0%,100%{transform:translate(0,0)}50%{transform:translate(160px,60px)}}
+  @keyframes b{0%,100%{transform:translate(0,0)}50%{transform:translate(-140px,-50px)}}
+  .spin{transform-origin:930px 200px;animation:s 30s linear infinite}
+  .spin2{transform-origin:930px 200px;animation:s 18s linear infinite reverse}
+  @keyframes s{to{transform:rotate(360deg)}}
+  .pulse{transform-origin:930px 200px;animation:p 3s ease-in-out infinite}
+  @keyframes p{0%,100%{transform:scale(1);opacity:.9}50%{transform:scale(1.15);opacity:1}}
+  .scan{animation:sc 6s linear infinite}
+  @keyframes sc{from{transform:translateY(-10px)}to{transform:translateY(410px)}}
+  .chip{animation:g 6s ease-in-out infinite}
+  .c2{animation-delay:1s}.c3{animation-delay:2s}.c4{animation-delay:3s}.c5{animation-delay:4s}.c6{animation-delay:5s}
+  @keyframes g{0%,70%,100%{fill-opacity:.06;stroke-opacity:.25}10%,25%{fill-opacity:.25;stroke-opacity:1}}
+  .rise{opacity:0;animation:up .9s cubic-bezier(.2,.8,.2,1) forwards}
+  .d1{animation-delay:.1s}.d2{animation-delay:.35s}.d3{animation-delay:.6s}.d4{animation-delay:.85s}
+  @keyframes up{from{opacity:0;transform:translateY(14px)}to{opacity:1;transform:none}}
+  .blink{animation:bl 1s steps(1) infinite}@keyframes bl{50%{opacity:0}}
+  text{font-family:system-ui,-apple-system,'Segoe UI',Helvetica,Arial,sans-serif}
+  .mono{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace}
+</style>
+<g clip-path="url(#r)">
+  <rect width="1200" height="400" fill="#1B1830"/>
+  <rect width="1200" height="400" fill="url(#grid)"/>
+  <circle class="o1" cx="180" cy="80" r="320" fill="url(#o1)"/>
+  <circle class="o2" cx="1050" cy="360" r="300" fill="url(#o2)"/>
+  <rect class="scan" x="0" y="0" width="1200" height="2" fill="url(#sig)" opacity=".35"/>
+
+  <g class="rise d1">
+    <rect x="64" y="70" width="330" height="32" rx="16" fill="#FFFFFF" fill-opacity=".07" stroke="#FFFFFF" stroke-opacity=".15"/>
+    <circle cx="84" cy="86" r="5" fill="#4ECB8E"><animate attributeName="opacity" values="1;.3;1" dur="1.6s" repeatCount="indefinite"/></circle>
+    <text x="98" y="91" font-size="13" font-weight="700" letter-spacing="2.5" fill="#F4F4F7">GRUPO MI ERP · ODOO GOLD PARTNER</text>
+  </g>
+  <text class="rise d2" x="62" y="178" font-size="70" font-weight="800" letter-spacing="-2.5" fill="#F4F4F7">Sebastian Tovar</text>
+  <text class="rise d3" x="64" y="236" font-size="34" font-weight="800" letter-spacing="-1" fill="url(#sig)">Hago que Odoo opere tu empresa.</text>
+  <g class="rise d4">
+    <text class="mono" x="64" y="300" font-size="17" fill="#F4F4F7" fill-opacity=".75">$ odoo --version <tspan fill="#4ECB8E">13 → 20</tspan>  ·  <tspan fill="#F4F4F7">CO VE PA MX</tspan><tspan class="blink" fill="#F1552B"> ▍</tspan></text>
+    <text x="64" y="342" font-size="15" fill="#F4F4F7" fill-opacity=".5">Fundador · Desarrollador · Consultor ERP</text>
+  </g>
+
+  <circle cx="930" cy="200" r="150" fill="none" stroke="#FFFFFF" stroke-opacity=".08"/>
+  <g class="spin"><circle cx="930" cy="200" r="150" fill="none" stroke="url(#sig)" stroke-width="2" stroke-dasharray="4 14"/><circle cx="1080" cy="200" r="6" fill="#F1552B"/></g>
+  <g class="spin2"><circle cx="930" cy="200" r="100" fill="none" stroke="#6C4BF5" stroke-opacity=".6" stroke-dasharray="60 30"/><circle cx="830" cy="200" r="5" fill="#6C4BF5"/></g>
+  <circle class="pulse" cx="930" cy="200" r="56" fill="url(#core)" opacity=".9"/>
+  <text x="930" y="197" text-anchor="middle" font-size="18" font-weight="800" letter-spacing="3" fill="#FFFFFF">ODOO</text>
+  <text class="mono" x="930" y="218" text-anchor="middle" font-size="12" fill="#FFFFFF" fill-opacity=".8">v20</text>
+
+  <g font-size="13" font-weight="700" letter-spacing="1.5" fill="#F4F4F7">
+    <rect class="chip c1" x="760" y="36" width="80" height="30" rx="15" fill="#6C4BF5" stroke="#6C4BF5"/><text x="800" y="56" text-anchor="middle">POS</text>
+    <rect class="chip c2" x="1020" y="36" width="96" height="30" rx="15" fill="#F1552B" stroke="#F1552B"/><text x="1068" y="56" text-anchor="middle">DIAN</text>
+    <rect class="chip c3" x="1100" y="186" width="80" height="30" rx="15" fill="#6C4BF5" stroke="#6C4BF5"/><text x="1140" y="206" text-anchor="middle">MRP</text>
+    <rect class="chip c4" x="1020" y="334" width="96" height="30" rx="15" fill="#F1552B" stroke="#F1552B"/><text x="1068" y="354" text-anchor="middle">WMS</text>
+    <rect class="chip c5" x="760" y="334" width="80" height="30" rx="15" fill="#6C4BF5" stroke="#6C4BF5"/><text x="800" y="354" text-anchor="middle">CRM</text>
+    <rect class="chip c6" x="690" y="186" width="80" height="30" rx="15" fill="#4ECB8E" stroke="#4ECB8E"/><text x="730" y="206" text-anchor="middle">IA</text>
+  </g>
+</g>
+</svg>

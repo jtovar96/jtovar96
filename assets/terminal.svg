@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" width="1200" height="470" viewBox="0 0 1200 470">
+<defs><linearGradient id="sig" x1="0" x2="1"><stop offset="0" stop-color="#6C4BF5"/><stop offset="1" stop-color="#F1552B"/></linearGradient></defs>
+<style>
+  text{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;font-size:18px;fill:#F4F4F7}
+  .l{opacity:0;animation:in .01s forwards}
+  @keyframes in{to{opacity:1}}
+  .p{fill:#4ECB8E}.c{fill:#F1552B}.m{fill:#9D86FF}.dim{fill-opacity:.55}.ok{fill:#4ECB8E}
+  .blink{animation:bl 1s steps(1) infinite}@keyframes bl{50%{opacity:0}}
+  .bar{font-family:system-ui,-apple-system,'Segoe UI',Helvetica,Arial,sans-serif;font-size:13px;fill-opacity:.5}
+</style>
+<rect x="1" y="1" width="1198" height="468" rx="18" fill="#12101F" stroke="url(#sig)" stroke-width="2"/>
+<path d="M1 19a18 18 0 0 1 18-18h1162a18 18 0 0 1 18 18v27H1z" fill="#1B1830"/>
+<circle cx="30" cy="24" r="7" fill="#FF5F57"/><circle cx="54" cy="24" r="7" fill="#FEBC2E"/><circle cx="78" cy="24" r="7" fill="#28C840"/>
+<text class="bar" x="600" y="29" text-anchor="middle">sebastian@mi-erp: ~</text>
+<g class="l" style="animation-delay:0.3s"><text x="30" y="86"><tspan class="p">➜</tspan> <tspan class="m">~</tspan> <tspan class="c">mierp</tspan> whoami</text></g>
+<g class="l" style="animation-delay:0.9s"><text x="52" y="116" class="dim">Sebastian Tovar · fundador de GRUPO MI ERP · Odoo Gold Partner</text></g>
+<g class="l" style="animation-delay:1.5s"><text x="30" y="156"><tspan class="p">➜</tspan> <tspan class="m">~</tspan> <tspan class="c">mierp</tspan> deploy --paises</text></g>
+<g class="l" style="animation-delay:2.0s"><text x="52" y="186"><tspan class="ok">✔</tspan> CO  <tspan class="dim">facturación DIAN · RADIAN · documento soporte · nómina</tspan></text></g>
+<g class="l" style="animation-delay:2.3s"><text x="52" y="214"><tspan class="ok">✔</tspan> VE  <tspan class="dim">SENIAT · contabilidad bimoneda</tspan></text></g>
+<g class="l" style="animation-delay:2.6s"><text x="52" y="242"><tspan class="ok">✔</tspan> PA  <tspan class="dim">DMCE 2.0 · Zona Libre de Colón</tspan></text></g>
+<g class="l" style="animation-delay:2.9s"><text x="52" y="270"><tspan class="ok">✔</tspan> MX  <tspan class="dim">CFDI 4.0</tspan></text></g>
+<g class="l" style="animation-delay:3.6s"><text x="30" y="310"><tspan class="p">➜</tspan> <tspan class="m">~</tspan> <tspan class="c">mierp</tspan> upgrade --from 13 --to 20</text></g>
+<g class="l" style="animation-delay:4.2s"><text x="52" y="340" class="dim">migrando módulos, datos y reportes… <tspan class="ok" fill-opacity="1">listo</tspan></text></g>
+<g class="l" style="animation-delay:4.8s"><text x="30" y="380"><tspan class="p">➜</tspan> <tspan class="m">~</tspan> <tspan class="c">mierp</tspan> status</text></g>
+<g class="l" style="animation-delay:5.3s"><text x="52" y="410"><tspan class="c">●</tspan> desarrollando en <tspan class="ok">Odoo 20</tspan> <tspan class="dim">· POS · MRP · WMS · IA en Messenger e Instagram</tspan></text></g>
+<g class="l" style="animation-delay:5.8s"><text x="30" y="446"><tspan class="p">➜</tspan> <tspan class="m">~</tspan> <tspan class="blink c">▍</tspan></text></g>
+</svg>
