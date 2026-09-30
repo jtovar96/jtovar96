@@ -18,6 +18,13 @@
 - Asistentes con **IA** conectados al ERP (VIKI) y automatización de procesos.
 - Migraciones entre versiones de Odoo y desde otros sistemas (Salesforce, Excel, ERPs locales).
 
+### 🧩 En qué estoy trabajando
+
+- 🏭 Manufactura, calidad y mantenimiento farmacéutico en Odoo 19
+- 🛒 POS con cierre ciego, arqueos y facturación electrónica por sede
+- 📦 Integración WMS de operadores logísticos (3PL)
+- 🤖 Conectores de Messenger, Instagram y TikTok con atención por IA
+
 ### 🛠️ Tecnologías
 
 <p>
