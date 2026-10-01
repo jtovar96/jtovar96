@@ -50,7 +50,7 @@
 
 <p align="center">
   <a href="https://mi-erp.app"><img src="https://img.shields.io/badge/Web-mi--erp.app-F1552B?style=for-the-badge" alt="Web"></a>
-  <img src="https://img.shields.io/badge/Correo-soporte%40mi--erp.app-6C4BF5?style=for-the-badge" alt="Correo: soporte@mi-erp.app">
+  <a href="mailto:jtovar@mi-erp.app"><img src="https://img.shields.io/badge/Correo-jtovar%40mi--erp.app-6C4BF5?style=for-the-badge" alt="Correo: jtovar@mi-erp.app"></a>
 </p>
 
 <p align="center"><sub>Hecho con código, café y demasiadas bases de datos de prueba ☕</sub></p>
