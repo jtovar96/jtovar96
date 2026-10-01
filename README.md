@@ -27,7 +27,6 @@
   <img src="https://img.shields.io/badge/OWL-1B1830?style=flat-square" alt="OWL">
   <img src="https://img.shields.io/badge/QWeb-1B1830?style=flat-square" alt="QWeb">
   <img src="https://img.shields.io/badge/Odoo.sh-1B1830?style=flat-square" alt="Odoo.sh">
-  <img src="https://img.shields.io/badge/Claude%20Code-F1552B?style=flat-square&logo=anthropic&logoColor=white" alt="Claude Code">
 </p>
 
 ## 📈 Actividad
